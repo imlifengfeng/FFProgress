@@ -1,6 +1,6 @@
 # FFProgress
 A simple download progress view extension that is drawn using Quartz2D
-![gif-w500](https://github.com/imlifengfeng/FFProgress/blob/master/screenshots/demo.gif)
+![gif](https://github.com/imlifengfeng/FFProgress/blob/master/screenshots/demo.gif  =200x)
 
 #Instructions
 Import the header file：
