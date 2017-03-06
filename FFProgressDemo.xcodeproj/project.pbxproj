@@ -15,6 +15,7 @@
 		6C059B4D1E6DB81300AF2C3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C059B4B1E6DB81300AF2C3A /* LaunchScreen.storyboard */; };
 		6C059B581E6DB81300AF2C3A /* FFProgressDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C059B571E6DB81300AF2C3A /* FFProgressDemoTests.m */; };
 		6C059B631E6DB81300AF2C3A /* FFProgressDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C059B621E6DB81300AF2C3A /* FFProgressDemoUITests.m */; };
+		6C059B741E6DBA5A00AF2C3A /* FFProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C059B731E6DBA5A00AF2C3A /* FFProgress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6C059B5E1E6DB81300AF2C3A /* FFProgressDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFProgressDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C059B621E6DB81300AF2C3A /* FFProgressDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFProgressDemoUITests.m; sourceTree = "<group>"; };
 		6C059B641E6DB81300AF2C3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C059B721E6DBA5A00AF2C3A /* FFProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFProgress.h; path = FFProgress/FFProgress.h; sourceTree = SOURCE_ROOT; };
+		6C059B731E6DBA5A00AF2C3A /* FFProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FFProgress.m; path = FFProgress/FFProgress.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				6C059B411E6DB81300AF2C3A /* AppDelegate.m */,
 				6C059B431E6DB81300AF2C3A /* ViewController.h */,
 				6C059B441E6DB81300AF2C3A /* ViewController.m */,
+				6C059B711E6DBA1F00AF2C3A /* FFProgress */,
 				6C059B461E6DB81300AF2C3A /* Main.storyboard */,
 				6C059B491E6DB81300AF2C3A /* Assets.xcassets */,
 				6C059B4B1E6DB81300AF2C3A /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				6C059B641E6DB81300AF2C3A /* Info.plist */,
 			);
 			path = FFProgressDemoUITests;
+			sourceTree = "<group>";
+		};
+		6C059B711E6DBA1F00AF2C3A /* FFProgress */ = {
+			isa = PBXGroup;
+			children = (
+				6C059B721E6DBA5A00AF2C3A /* FFProgress.h */,
+				6C059B731E6DBA5A00AF2C3A /* FFProgress.m */,
+			);
+			path = FFProgress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C059B741E6DBA5A00AF2C3A /* FFProgress.m in Sources */,
 				6C059B451E6DB81300AF2C3A /* ViewController.m in Sources */,
 				6C059B421E6DB81300AF2C3A /* AppDelegate.m in Sources */,
 				6C059B3F1E6DB81300AF2C3A /* main.m in Sources */,
@@ -514,6 +528,7 @@
 				6C059B691E6DB81300AF2C3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C059B6A1E6DB81300AF2C3A /* Build configuration list for PBXNativeTarget "FFProgressDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +537,7 @@
 				6C059B6C1E6DB81300AF2C3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C059B6D1E6DB81300AF2C3A /* Build configuration list for PBXNativeTarget "FFProgressDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +546,7 @@
 				6C059B6F1E6DB81300AF2C3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
