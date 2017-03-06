@@ -16,7 +16,7 @@
 @property (nonatomic,assign)CGFloat progressLineWidth;
 //内部文字的字体
 @property(nonatomic,strong)UIFont *textFont;
-//内部文件的颜色
+//内部文字的颜色
 @property(nonatomic,strong)UIColor *textColor;
 //是否显示内部文字
 @property (nonatomic,assign)BOOL showProgressLabel;
